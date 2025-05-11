@@ -1,0 +1,97 @@
+# Configuration files with sensitive information
+/_raw/
+config/db.php
+
+# Composer
+/vendor/
+composer.phar
+
+# Environment files
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Cache and logs
+/logs/*
+!/logs/.gitkeep
+/cache/*
+!/cache/.gitkeep
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# IDE and editor folders
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+.project
+.settings/
+.classpath
+nbproject/
+
+# Dependency directories
+node_modules/
+bower_components/
+vendor/
+
+# Compiled assets
+/assets/css/*.min.css
+/assets/js/*.min.js
+
+# User uploaded content (if applicable)
+/uploads/*
+!/uploads/.gitkeep
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Testing and development
+/phpunit.xml
+.phpunit.result.cache
+/tests/coverage/
+
+# Local development server
+.php-version
+.htaccess.local
+
+# Session files (if locally stored)
+/sessions/*
+!/sessions/.gitkeep
+
+# Custom development files
+dev_notes.md
+TODO.md
+NOTES.md
+
+# Exclude any compiled or minified assets that are generated during build
+# But include the source files
+*.map
+
+# Exclude potential database dumps
+*.sql
+*.sqlite
+*.db
+backups/
+
+# Exclude lock files (optional - uncomment if you want to include these in version control)
+# composer.lock
+
+# Exclude any temporary or development scripts
+temp_*.php
+dev_*.php
+test_*.php
+
+# Exclude OS generated files
+.DS_Store*
+ehthumbs.db
+Icon?
